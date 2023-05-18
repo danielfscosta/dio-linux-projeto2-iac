@@ -24,6 +24,7 @@ apt-get install unzip -y
 
 echo "Baixando, descompactando e copiando os arquivos da aplicação web..."
 
+cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 unzip main.zip
 cp -R linux-site-dio-main/* /var/www/html
